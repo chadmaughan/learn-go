@@ -1,0 +1,34 @@
+The 'go' tool helps manage go source code
+
+The help documentation is great
+
+$ go help get
+$ go get gotour
+
+According to http://code.google.com/p/go-tour/ you must have mercurial installed to have 'go get'
+
+$ go help build
+$ go build
+
+compiles imports and dependencies but doesn't install them
+
+$ go help clean
+$ go clean
+
+gets rid of artifacts from manual builds
+
+$ go help install
+$ go install
+
+like 'go build' but it also installs them
+
+$ go help fmt
+$ go fmt
+
+formats your code (nice!)
+it outputs the names of any files that it modifies
+
+$ go help run
+$ go run program.go
+
+compiles and runs your code
