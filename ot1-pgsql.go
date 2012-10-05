@@ -1,4 +1,6 @@
-// go get github.com/bmizerany/pq
+// Download the pgsql library from github
+//	 go help get
+//	 go get github.com/lxn/go-pgsql
 package main
 
 import (
