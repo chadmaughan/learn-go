@@ -44,6 +44,7 @@ func main() {
 		log.Fatal(err)
 	}
 
+	// similar to a C (or Java) while
 	for rows.Next() {
 
 		var temp Temp
