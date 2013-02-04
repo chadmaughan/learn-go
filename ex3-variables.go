@@ -34,7 +34,7 @@ var a complex128 = cmplx.Sqrt(-5+12i)
 
 func main() {
 
-	// a := is a 'short assignment', you don't need to use the var declaration with an implicity type
+	// a := is a 'short assignment', you don't need to use the var declaration with an implicit type
 	pc, ppython, pjava := true, false, "no!"
 
 	fmt.Println(x, y, z, c, python, java)
